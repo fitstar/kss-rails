@@ -3,5 +3,8 @@ module Kss
     def index
 
     end
+    def buttons
+
+    end
   end
 end
