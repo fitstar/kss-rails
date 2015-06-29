@@ -1,4 +1,5 @@
 Kss::Engine.routes.draw do
+  get '/styleguide' => 'home#styleguide'
   get '/text' => 'home#text'
   get '/buttons' => 'home#buttons'
   get '/modal' => 'home#modal'
